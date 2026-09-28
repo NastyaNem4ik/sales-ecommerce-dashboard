@@ -2,6 +2,10 @@
 
 Dashboard interactivo de ventas y comercio electrónico desarrollado con SQL y Looker Studio.
 
+## Objetivo del proyecto
+
+Integrar los datos de ventas online y offline en un único dataset y crear un dashboard interactivo para analizar ingresos, pedidos, clientes, productos y canales de venta.
+
 ## Descripción del proyecto
 
 Este proyecto consiste en el análisis y visualización de datos de ventas procedentes de dos canales:
