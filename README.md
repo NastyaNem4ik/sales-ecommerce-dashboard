@@ -21,9 +21,43 @@ Para combinar la información de las dos fuentes se utilizaron:
 - Conversión y normalización de tipos de datos
 - Creación del campo `sales_channel`
 
-### Flujo de integración
+### Proceso de integración de datos
 
-```text
-Online Store ──┐
-               ├── UNION ALL ──> Dataset combinado ──> Looker Studio
-Offline Store ─┘
+**Online Store + Offline Store → UNION ALL → Dataset combinado → Looker Studio**
+
+## Resultados principales
+
+El dashboard permite analizar los principales indicadores de ventas y comportamiento de los clientes.
+
+- Ingresos totales
+- Número total de pedidos
+- Clientes únicos
+- Productos únicos
+- Ciudades de venta
+- Ingresos por ciudad
+- Ingresos según el nivel de fidelización
+- Evolución de los ingresos por canal de venta
+- Productos con mayores ingresos
+
+## Dashboard
+
+![Sales & E-commerce Dashboard](dashboard.png)
+
+## Dashboard interactivo
+
+Puedes consultar el dashboard interactivo en Looker Studio:
+
+[Ver dashboard en Looker Studio](https://datastudio.google.com/reporting/79393d91-55d9-4bce-a713-035893786941/page/2Kt9F)
+
+## Tecnologías utilizadas
+
+- SQL
+- PostgreSQL
+- Looker Studio
+- GitHub
+
+## Estructura del proyecto
+
+- `sales-ecommerce.sql` — consulta SQL para integrar las ventas online y offline.
+- `dashboard.png` — captura del dashboard final.
+- `README.md` — descripción y documentación del proyecto.
